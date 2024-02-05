@@ -1,0 +1,43 @@
+
+table {  /*La tabella abbia un bordo di 1px di colore #263238 e sia larga la metà della pagina.*/
+    border: 1px solid #263238;
+    width: 50%;
+}
+
+caption { /*Il titolo della tabella deve essere di colore #263238,in grassetto e grandezza 18px. Aggiungere inoltre un margine per staccare il testo dalla tabella*/
+    color: #263238;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+thead th { /*L'header della tabella abbia colore di sfondo #455a64 e testo bianco con peso 700.*/
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) { /*Le righe della tabella abbiano colore di sfondo alternato tra #eceff1 e #b0bec5.*/
+    background-color: #eceff1;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b0bec5;
+}
+
+tfoot { /*L'ultima riga della tabella abbia testo con peso 800 e sfondo di colore #78909c.*/
+    background-color: #78909c;
+    font-weight: 800;
+}
+
+td { /*I valori numerici sono allineati a destra.*/
+    text-align: right;
+}
+
+td:nth-child(2) { /*Nel corpo della tabella la colonna delle entrate ha un testo di colore #003300.*/
+    color: #003300; 
+}
+
+td:nth-child(3) { /*Nel corpo della tabella la colonna delle uscite ha un testo di colore #7f0000.*/
+    color: #7f0000; 
+}
