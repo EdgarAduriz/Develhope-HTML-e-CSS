@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+    height: 100%;
+  }
+  
+  #green,
+  #yellow,
+  #red,
+  #blue {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+  }
+  
+  #green{
+    background-color: #8ffda7;
+  }
+
+  #yellow{
+    background-color: #ffff92;
+  }
+
+  #red{
+    background-color: #ff919c;
+  }
+
+  #blue{
+    background-color: #98d2ff;
+  }
+  #orange {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #ffc788;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+  }
+  

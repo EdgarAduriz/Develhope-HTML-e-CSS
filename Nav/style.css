@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a, nav label, nav select, form {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    vertical-align: middle;
+}
+
+nav label {
+    color: #808080;
+}
+
+.disabled {
+    color: #808080;
+}
+
+nav select {
+    color: #808080;
+    padding: 10px;
+}
+
+nav select:hover {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

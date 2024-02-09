@@ -1,0 +1,19 @@
+img {
+    background-color: grey;
+    width: 300px;
+    height: 100px;
+}
+
+#cardlink {
+    padding-right: 10px;
+}
+
+article {
+    border: 1px grey solid;
+    border-radius: 1%;
+    max-width: 300px;
+}
+
+.spazio{
+    padding-left: 5px;
+}

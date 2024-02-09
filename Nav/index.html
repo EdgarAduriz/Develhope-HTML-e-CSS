@@ -1,0 +1,34 @@
+
+    <html>
+        <head>
+            <title>Creazione NavBar</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            <header>
+                
+                <nav>
+                    <h3>Navbar</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Link</a></li>
+                        <li>
+                            <label for="scegliOpzione">Dropdown</label>
+                            <select id="scegliOpzione" name="opzioni">
+                                <option value="opzione1">Opzione 1</option>
+                                <option value="opzione2">Opzione 2</option>
+                                <option value="opzione3">Opzione 3</option>
+                            </select>
+                        </li>
+                        <li><a href="" class="disabled">Disabled</a></li>
+                    </ul>
+                    <form action="/risultati-di-ricerca" method="get">
+                        <label for="search"></label>
+                        <input type="text" id="search" name="q" placeholder="Search">
+                        <button type="submit">Search</button>
+                    </form>
+                </nav>
+            </header>
+        </body>
+        </html>
